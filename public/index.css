@@ -1,0 +1,71 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header / Navigation styling */
+nav {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #004b8d;
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+/* User list */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-left: 5px solid #0077cc;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    transform: translateX(5px);
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    color: #4b5563;
+    max-width: 600px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Users</title>
+    <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+    <%- include('partials/header') %>
+        <h1>Список пользователей:</h1>
+        <ul>
+            <% users.forEach(user=> { %>
+                <li><strong>
+                        <%= user.first_name %>
+                            <%= user.last_name %>
+                    </strong> — <%= user.job %> из <%= user.country %>
+                </li>
+                <% }) %>
+        </ul>
+</body>
+
+</html>
